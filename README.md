@@ -1,6 +1,6 @@
 # Bioinformatics Portfolio
 
-Focused showcase repository for three technical projects that are straightforward to explain in an interview: sequence alignment, genomics data parsing, and computer-vision-based foreground extraction.
+Focused showcase repository for three technical projects centered on sequence alignment, genomics data parsing, and computer-vision-based foreground extraction.
 
 ## Portfolio Goal
 
@@ -22,7 +22,7 @@ Pairwise sequence alignment project with both CLI and API surfaces.
 - Dynamic programming implementation for global and local alignment
 - Adjustable match, mismatch, wildcard, and gap scoring
 - Linear and affine gap models plus alignment statistics
-- Good talking points: scoring matrices, traceback, global vs. local alignment
+- Focus areas: scoring matrices, traceback, and global versus local alignment
 
 Repository:
 https://github.com/Maxim-Firsov/pgx-sequence-aligner
@@ -34,7 +34,7 @@ VCF processing utility that turns raw records into tabular summaries.
 - Parses `GENE`, `IMPACT`, and `TRANSCRIPT` annotations
 - Supports gzipped input and structured CSV/JSON exports
 - Produces gene-level and variant-type summaries
-- Good talking points: genomics file formats, normalization, summary statistics
+- Focus areas: genomics file formats, normalization, and summary statistics
 
 Repository:
 https://github.com/Maxim-Firsov/genomic-variant-parser
@@ -46,7 +46,7 @@ Classical computer-vision pipeline for generating subject masks from video.
 - Auto profile for practical 4K processing plus background subtraction
 - Mask cleanup, component filtering, and GrabCut refinement
 - Emits run metadata describing the exact processing configuration
-- Good talking points: frame differencing, segmentation heuristics, temporal smoothing
+- Focus areas: frame differencing, segmentation heuristics, and temporal smoothing
 
 Repository:
 https://github.com/Maxim-Firsov/foreground-matting-video-mask
