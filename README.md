@@ -1,6 +1,6 @@
 # Bioinformatics Portfolio
 
-Focused showcase repository for three technical projects centered on sequence alignment, genomics data parsing, and computer-vision-based foreground extraction.
+Focused showcase repository for four technical projects centered on variant triage, sequence alignment, genomics data parsing, and computer-vision-based foreground extraction.
 
 ## Portfolio Goal
 
@@ -15,7 +15,20 @@ Dependability signals added across the portfolio:
 
 ## Projects
 
-### 1. PGx Sequence Aligner
+### 1. Variant Review Workbench (Pilot)
+
+ClinVar-first small-variant triage and reporting tool for research-oriented review workflows.
+
+- Parses VCF input and performs assembly-aware ClinVar matching
+- Surfaces conflicting interpretations and submission evidence
+- Applies transparent ranking and emits HTML/CSV/JSON outputs
+- Optional PharmGKB enrichment for PGx context
+- Focus areas: variant triage workflow design, reproducibility, and analyst-facing reporting
+
+Repository:
+https://github.com/Maxim-Firsov/variant-review-workbench
+
+### 2. PGx Sequence Aligner
 
 Pairwise sequence alignment project with both CLI and API surfaces.
 
@@ -27,7 +40,7 @@ Pairwise sequence alignment project with both CLI and API surfaces.
 Repository:
 https://github.com/Maxim-Firsov/pgx-sequence-aligner
 
-### 2. Genomic Variant Parser
+### 3. Genomic Variant Parser
 
 VCF processing utility that turns raw records into tabular summaries.
 
@@ -39,7 +52,7 @@ VCF processing utility that turns raw records into tabular summaries.
 Repository:
 https://github.com/Maxim-Firsov/genomic-variant-parser
 
-### 3. Foreground Matting Video Mask
+### 4. Foreground Matting Video Mask
 
 Classical computer-vision pipeline for generating subject masks from video.
 
@@ -51,3 +64,11 @@ Classical computer-vision pipeline for generating subject masks from video.
 Repository:
 https://github.com/Maxim-Firsov/foreground-matting-video-mask
 
+## Suggested Resume Framing
+
+Use language tied to what these repositories actually demonstrate:
+
+- Built a pairwise sequence alignment service supporting global and local alignment modes with configurable scoring.
+- Developed a VCF parsing pipeline that converts variant records into gene-level and mutation-type summaries.
+- Built a ClinVar-first variant triage workbench that flags interpretation conflicts, ranks findings, and generates analyst-ready reports.
+- Implemented a foreground-masking video pipeline using OpenCV stabilization, background subtraction, and matte refinement.
