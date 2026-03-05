@@ -1,6 +1,6 @@
 # Bioinformatics Portfolio
 
-Focused showcase repository for four technical projects centered on variant triage, sequence alignment, genomics data parsing, and computer-vision-based foreground extraction.
+Focused showcase repository for four technical projects centered on variant triage as a skill cumulative flagship project; then as small technical showcases sequence alignment, genomics data parsing, and computer-vision-based foreground extraction.
 
 ## Portfolio Goal
 
@@ -64,11 +64,3 @@ Classical computer-vision pipeline for generating subject masks from video.
 Repository:
 https://github.com/Maxim-Firsov/foreground-matting-video-mask
 
-## Suggested Resume Framing
-
-Use language tied to what these repositories actually demonstrate:
-
-- Built a pairwise sequence alignment service supporting global and local alignment modes with configurable scoring.
-- Developed a VCF parsing pipeline that converts variant records into gene-level and mutation-type summaries.
-- Built a ClinVar-first variant triage workbench that flags interpretation conflicts, ranks findings, and generates analyst-ready reports.
-- Implemented a foreground-masking video pipeline using OpenCV stabilization, background subtraction, and matte refinement.
