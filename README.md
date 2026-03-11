@@ -2,14 +2,7 @@
 
 Collection of applied bioinformatics and adjacent engineering repositories spanning variant triage, sequence alignment, genomics data parsing, qPCR quality control, and lab-operations tooling.
 
-Each project includes a working code path, example inputs, and documentation that explains the underlying method.
-
-Common repository characteristics:
-
-- automated CI workflows per repository
-- pinned runtime metadata through `pyproject.toml`
-- explicit test suites and documented limitations
-- verified output artifacts for parser and video runs
+Each project includes runnable code, example inputs, and documentation describing the underlying method.
 
 ## Projects
 
@@ -21,7 +14,6 @@ ClinVar-first small-variant triage and reporting tool for research-oriented revi
 - Surfaces conflicting interpretations and submission evidence
 - Applies transparent ranking and emits HTML/CSV/JSON outputs
 - Optional PharmGKB enrichment for PGx context
-- Focus areas: variant triage workflow design, reproducibility, and analyst-facing reporting
 
 Repository:
 https://github.com/Maxim-Firsov/variant-review-workbench
@@ -33,7 +25,6 @@ Pairwise sequence alignment project with both CLI and API surfaces.
 - Dynamic programming implementation for global and local alignment
 - Adjustable match, mismatch, wildcard, and gap scoring
 - Linear and affine gap models plus alignment statistics
-- Focus areas: scoring matrices, traceback, and global versus local alignment
 
 Repository:
 https://github.com/Maxim-Firsov/pgx-sequence-aligner
@@ -45,7 +36,6 @@ VCF processing utility that turns raw records into tabular summaries.
 - Parses `GENE`, `IMPACT`, and `TRANSCRIPT` annotations
 - Supports gzipped input and structured CSV/JSON exports
 - Produces gene-level and variant-type summaries
-- Focus areas: genomics file formats, normalization, and summary statistics
 
 Repository:
 https://github.com/Maxim-Firsov/genomic-variant-parser
@@ -57,7 +47,6 @@ Classical computer-vision pipeline for generating subject masks from video.
 - Auto profile for practical 4K processing plus background subtraction
 - Mask cleanup, component filtering, and GrabCut refinement
 - Emits run metadata describing the exact processing configuration
-- Focus areas: frame differencing, segmentation heuristics, and temporal smoothing
 
 Repository:
 https://github.com/Maxim-Firsov/foreground-matting-video-mask
