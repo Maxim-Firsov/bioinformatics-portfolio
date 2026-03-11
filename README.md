@@ -1,12 +1,10 @@
-﻿# Bioinformatics Portfolio
+# Bioinformatics Projects
 
-Focused showcase repository for applied bioinformatics and adjacent engineering projects spanning variant triage, sequence alignment, genomics data parsing, qPCR quality control, and lab-operations tooling.
+Collection of applied bioinformatics and adjacent engineering repositories spanning variant triage, sequence alignment, genomics data parsing, qPCR quality control, and lab-operations tooling.
 
-## Portfolio Goal
+Each project includes a working code path, example inputs, and documentation that explains the underlying method.
 
-Present concrete, runnable work that demonstrates applied programming in adjacent technical domains without relying on unverifiable claims. Each project includes a working code path, example inputs, and documentation that explains the underlying method.
-
-Dependability signals added across the portfolio:
+Common repository characteristics:
 
 - automated CI workflows per repository
 - pinned runtime metadata through `pyproject.toml`
@@ -89,7 +87,7 @@ https://github.com/Maxim-Firsov/plate-transfer-audit
 
 ## Licensing
 
-Project licensing is intentionally explicit at the repository level:
+Project licensing is explicit at the repository level:
 
 - `bioinformatics-portfolio`: MIT
 - `foreground-matting-video-mask`: MIT
@@ -98,12 +96,3 @@ Project licensing is intentionally explicit at the repository level:
 - `plate-transfer-audit`: MIT
 - `qpcr-hmm-qc`: MIT
 - `variant-review-workbench`: custom non-commercial, attribution-required license
-
-## Suggested Resume Framing
-
-Use language tied to what these repositories actually demonstrate:
-
-- Built a pairwise sequence alignment service supporting global and local alignment modes with configurable scoring.
-- Developed a VCF parsing pipeline that converts variant records into gene-level and mutation-type summaries.
-- Built a ClinVar-first variant triage workbench that flags interpretation conflicts, ranks findings, and generates analyst-ready reports.
-- Implemented a foreground-masking video pipeline using OpenCV stabilization, background subtraction, and matte refinement.
