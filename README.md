@@ -51,7 +51,7 @@ Classical computer-vision pipeline for generating subject masks from video.
 Repository:
 https://github.com/Maxim-Firsov/foreground-matting-video-mask
 
-### 5. qPCR HMM QC
+### 5. qPCR Quality Control
 
 Deterministic qPCR quality-control pipeline with HMM-style state calling and auditable outputs.
 
@@ -61,7 +61,7 @@ Deterministic qPCR quality-control pipeline with HMM-style state calling and aud
 - Emits CSV/JSON/HTML artifacts for review and audit
 
 Repository:
-https://github.com/Maxim-Firsov/qpcr-hmm-qc
+https://github.com/Maxim-Firsov/qpcr-quality-control
 
 ### 6. Plate Transfer Audit
 
@@ -83,5 +83,5 @@ Project licensing is explicit at the repository level:
 - `genomic-variant-parser`: MIT
 - `pgx-sequence-aligner`: MIT
 - `plate-transfer-audit`: MIT
-- `qpcr-hmm-qc`: MIT
+- `qpcr-quality-control`: MIT
 - `variant-review-workbench`: custom non-commercial, attribution-required license
