@@ -84,4 +84,4 @@ Project licensing is explicit at the repository level:
 - `pgx-sequence-aligner`: MIT
 - `plate-transfer-audit`: MIT
 - `qpcr-quality-control`: MIT
-- `variant-review-workbench`: custom non-commercial, attribution-required license
+- `variant-review-workbench`: Apache License 2.0
