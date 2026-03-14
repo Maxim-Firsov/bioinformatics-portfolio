@@ -2,7 +2,7 @@
 
 Collection of applied bioinformatics and adjacent engineering repositories spanning variant triage, sequence alignment, genomics data parsing, qPCR quality control, and lab-operations tooling.
 
-Each project includes runnable code, example inputs, and documentation describing the underlying method.
+The active projects below include runnable code, example inputs, and documentation describing the underlying method.
 
 ## Projects
 
@@ -63,9 +63,11 @@ Deterministic qPCR quality-control pipeline with HMM-style state calling and aud
 Repository:
 https://github.com/Maxim-Firsov/qpcr-quality-control
 
-### 6. Plate Transfer Audit
+### 6. Plate Transfer Audit (Inactive Draft)
 
 Plate transfer validation utility focused on operational quality checks in wet-lab workflows.
+
+This repository is not part of the current live portfolio rotation.
 
 - Audits source-to-destination mapping consistency
 - Detects transfer mismatches and rule violations
@@ -82,6 +84,6 @@ Project licensing is explicit at the repository level:
 - `foreground-matting-video-mask`: MIT
 - `genomic-variant-parser`: MIT
 - `pgx-sequence-aligner`: MIT
-- `plate-transfer-audit`: MIT
+- `plate-transfer-audit`: MIT, inactive draft
 - `qpcr-quality-control`: MIT
 - `variant-review-workbench`: Apache License 2.0
