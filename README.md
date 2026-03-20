@@ -6,7 +6,7 @@ The active projects below include runnable code, example inputs, and documentati
 
 ## Projects
 
-### 1. Variant Review Workbench (Pilot)
+### 1. Variant Review Workbench (Flagship)
 
 ClinVar-first small-variant triage and reporting tool for research-oriented review workflows.
 
@@ -18,40 +18,8 @@ ClinVar-first small-variant triage and reporting tool for research-oriented revi
 Repository:
 https://github.com/Maxim-Firsov/variant-review-workbench
 
-### 2. PGx Sequence Aligner
 
-Pairwise sequence alignment project with both CLI and API surfaces.
-
-- Dynamic programming implementation for global and local alignment
-- Adjustable match, mismatch, wildcard, and gap scoring
-- Linear and affine gap models plus alignment statistics
-
-Repository:
-https://github.com/Maxim-Firsov/pgx-sequence-aligner
-
-### 3. Genomic Variant Parser
-
-VCF processing utility that turns raw records into tabular summaries.
-
-- Parses `GENE`, `IMPACT`, and `TRANSCRIPT` annotations
-- Supports gzipped input and structured CSV/JSON exports
-- Produces gene-level and variant-type summaries
-
-Repository:
-https://github.com/Maxim-Firsov/genomic-variant-parser
-
-### 4. Foreground Matting Video Mask
-
-Classical computer-vision pipeline for generating subject masks from video.
-
-- Auto profile for practical 4K processing plus background subtraction
-- Mask cleanup, component filtering, and GrabCut refinement
-- Emits run metadata describing the exact processing configuration
-
-Repository:
-https://github.com/Maxim-Firsov/foreground-matting-video-mask
-
-### 5. qPCR Quality Control
+### 2. qPCR Quality Control
 
 Deterministic qPCR quality-control pipeline with HMM-style state calling and auditable outputs.
 
@@ -62,6 +30,39 @@ Deterministic qPCR quality-control pipeline with HMM-style state calling and aud
 
 Repository:
 https://github.com/Maxim-Firsov/qpcr-quality-control
+
+### 3. PGx Sequence Aligner
+
+Pairwise sequence alignment project with both CLI and API surfaces.
+
+- Dynamic programming implementation for global and local alignment
+- Adjustable match, mismatch, wildcard, and gap scoring
+- Linear and affine gap models plus alignment statistics
+
+Repository:
+https://github.com/Maxim-Firsov/pgx-sequence-aligner
+
+### 4. Genomic Variant Parser
+
+VCF processing utility that turns raw records into tabular summaries.
+
+- Parses `GENE`, `IMPACT`, and `TRANSCRIPT` annotations
+- Supports gzipped input and structured CSV/JSON exports
+- Produces gene-level and variant-type summaries
+
+Repository:
+https://github.com/Maxim-Firsov/genomic-variant-parser
+
+### 5. Foreground Matting Video Mask
+
+Classical computer-vision pipeline for generating subject masks from video.
+
+- Auto profile for practical 4K processing plus background subtraction
+- Mask cleanup, component filtering, and GrabCut refinement
+- Emits run metadata describing the exact processing configuration
+
+Repository:
+https://github.com/Maxim-Firsov/foreground-matting-video-mask
 
 ### 6. Plate Transfer Audit (Inactive Draft)
 
@@ -74,7 +75,7 @@ This repository is not part of the current live portfolio rotation.
 - Produces structured findings for downstream review
 
 Repository:
-https://github.com/Maxim-Firsov/plate-transfer-audit
+- not public at current date
 
 ## Licensing
 
